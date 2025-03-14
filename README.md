@@ -6,7 +6,6 @@
   - **Hobbies:** Listening to music, Playing (and making) videogames, Watching movies.
   - **Socials:**
     - **Instagram:** IsaacVil_.
-    - **Twitter:** IsaacVil_.
     - **Letterbox:** IsaacVil.
 - **Education:**
   - **Costa Rican Institute of Technology:** I begin studying Computer Science in 2024.
