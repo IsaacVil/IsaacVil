@@ -11,9 +11,9 @@
   - **Costa Rican Institute of Technology:** I begin studying Computer Science in 2024.
   - **Languages:** C2 Level Spanish and C1 Level English.
 - **Technologies:**
-<p align="center">
-  <h3>Technologies:</h3>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,java,cpp,verilog,assembly&perline=14" />
-  </a>
-</p>
+  - <p align="center">
+      <h3>Technologies:</h3>
+      <a href="https://skillicons.dev">
+        <img src="https://skillicons.dev/icons?i=python,java,cpp,verilog,assembly&perline=14" />
+      </a>
+    </p>
