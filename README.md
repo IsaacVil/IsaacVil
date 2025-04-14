@@ -10,9 +10,12 @@
 - **Education:**
   - **Costa Rican Institute of Technology:** I begin studying Computer Science in 2024.
   - **Languages:** C2 Level Spanish and C1 Level English.
-- **Coding Languages:**
-  - **C++:** Focused on data structures and algorithms.
-  - **Java:** Experience with managing projects oriented at objets.
-  - **Python:** Proficiency managing projects with Intefaces and Data.
-  - **Verilog:** Knowledge of circuits and the arquitecture of computers.
-  - **Assembly:** Understanding of precise hardware operations.
+- **Technologies:**
+<p align="center">
+  <h3>Technologies:</h3>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,java,cpp,verilog,assembly&perline=14" />
+  </a>
+</p>
+
+<p><img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=allandbb&theme=soft-green" alt="AllanDBB" /></p>
