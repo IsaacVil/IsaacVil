@@ -17,5 +17,3 @@
     <img src="https://skillicons.dev/icons?i=python,java,cpp,verilog,assembly&perline=14" />
   </a>
 </p>
-
-<p><img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=IsaacVil&theme=soft-green" alt="IsaacVil" /></p>
