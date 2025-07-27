@@ -13,6 +13,6 @@
 - <p align="center">
       <h3>Technologies:</h3>
       <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=python,java,cpp,verilog,mysql,git&perline=14" />
+        <img src="https://skillicons.dev/icons?i=python,java,cpp,verilog,mysql,git&perline=3" />
       </a>
     </p>
