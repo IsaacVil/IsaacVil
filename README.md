@@ -5,7 +5,7 @@ Soy estudiante de Ingeniería en Computación en el **TEC (Costa Rica)** enfocad
 
 ---
 
-## 🚀 Tecnologías y Herramientas
+## Tecnologías y Herramientas
 
 ### **Backend**
 - Node.js  
