@@ -39,7 +39,8 @@ I am a Computer Engineering student at **TEC (Costa Rica)** focused on **full-st
 - Discrete Mathematics  
 
 ### **Languages**
-- English C1 (advanced)
+- Spanish C2 
+- English C1 
 
 ---
 
