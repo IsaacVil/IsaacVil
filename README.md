@@ -59,7 +59,7 @@ I am a Computer Engineering student at **TEC (Costa Rica)** focused on **full-st
 - **Voto Pura Vida** – Electronic voting and crowdfunding system for Costa Rica. Built with Node.js + Express on the backend, SQL Server database, Flyway-managed migrations, and a fully REST-based endpoint architecture for voting, authentication, candidates, donations, and administration. Includes MFA authentication, AES-256/RSA encryption, and a strong focus on security and traceability.  
 🔗 https://github.com/IsaacVil/Voto-Pura-Vida
 
-- **Data Environment** – Data Environment is a full end-to-end data engineering platform that integrates heterogeneous transactional systems (PostgreSQL/Supabase, SQL Server, MySQL, MongoDB, Neo4j) into a unified analytical ecosystem. It includes automated ETL pipelines in Python, a dimensional Data Warehouse built on SQL Server, a complete staging and integration workflow, and an Apriori-based recommendation engine. The environment prepares clean, enriched, business-ready data consumed by React frontends and Power BI dashboards for decision-making and sales intelligence.
+- **Data Environment** – Data Environment is a full end-to-end data engineering platform that integrates heterogeneous transactional systems (PostgreSQL/Supabase, SQL Server, MySQL, MongoDB, Neo4j) into a unified analytical ecosystem. It includes automated ETL pipelines in Python, a dimensional Data Warehouse built on SQL Server, a complete staging and integration workflow, and an Apriori-based recommendation engine. The environment prepares clean, enriched, business-ready data consumed by React frontends and Power BI dashboards for decision-making and sales intelligence.  
 🔗 https://github.com/DilanHern/Data_Enviroment
 
 ---
