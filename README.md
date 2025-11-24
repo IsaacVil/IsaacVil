@@ -1,66 +1,69 @@
-# Soy Isaac Villalobos  
-### Estudiante de Ingeniería en Computación | Full-Stack Developer | Data Engineering | Data Bases
+---
+# Isaac Villalobos  
+### Computer Engineering Student | Full-Stack Developer | Data Engineering | Databases
 
-Soy estudiante de Ingeniería en Computación en el **TEC (Costa Rica)** enfocado al **desarrollo full-stack**, **bases de datos**, **data engineering** y **automatización de procesos**. Me apasiona diseñar e implementar sistemas que integren software, datos y arquitectura escalable para resolver problemas reales.
+I am a Computer Engineering student at **TEC (Costa Rica)** focused on **full-stack development**, **databases**, **data engineering**, and **process automation**. I’m passionate about designing and implementing systems that integrate software, data, and scalable architectures to solve real-world problems.
 
 ---
 
-## Tecnologías y Herramientas
+## Technologies & Tools
 
 ### **Backend**
 - Node.js  
 - Python  
 - Supabase (Postgres, Auth, Storage)  
 - SQL Server  
-- APIs REST  
-- ETL (extracción, transformación y carga)
+- REST APIs  
+- ETL (extraction, transformation, and loading)
 
 ### **Frontend**
 - React
 
 ### **Data & Analytics**
-- Modelado de datos  
+- Data modeling  
 - Data Warehouse  
-- SQL avanzado  
-- Integraciones entre sistemas  
+- Advanced SQL  
+- System integrations  
 - Power BI  
-- Ciencia de datos
+- Data science fundamentals
 
-### **Ingeniería de Software**
-- Ingeniería de Requerimientos  
-- Documentación técnica  
-- Scrum / Metodologías ágiles
+### **Software Engineering**
+- Requirements Engineering  
+- Technical documentation  
+- Scrum / Agile methodologies  
 
-### **Matemáticas aplicadas**
-- Probabilidades  
-- Cálculo  
-- Álgebra Lineal  
-- Matemática Discreta  
+### **Applied Mathematics**
+- Probability  
+- Calculus  
+- Linear Algebra  
+- Discrete Mathematics  
 
-### **Idiomas**
-- Inglés C1 (avanzado)
-
----
-
-## Áreas de Interés
-- Desarrollo backend y arquitectura de APIs  
-- Data engineering y pipelines    
-- Sistemas transaccionales y análisis de datos  
+### **Languages**
+- English C1 (advanced)
 
 ---
 
-## Proyectos Destacados
+## Areas of Interest
+- Backend development & API architecture  
+- Data engineering and pipelines  
+- Transactional systems and data analytics  
 
-- ** Soltura_DB** – Sistema de ventas y administración de inventarios con enfoque académico/profesional. Incluye modelado relacional, triggers, stored procedures, manejo de transacciones, integridad referencial y consultas optimizadas para un entorno real de negocio.
+---
+
+## Highlighted Projects
+
+- **Soltura_DB** – Sales and inventory management system with an academic/professional focus. Includes relational modeling, triggers, stored procedures, transactions, referential integrity, and optimized queries for a realistic business environment.  
 🔗 https://github.com/AllanDBB/Soltura_DB
-- ** Voto Pura Vida** – Sistema de voto electrónico y crowdfunding para Costa Rica. Desarrollado con Node.js + Express en el backend, base de datos SQL Server, migraciones gestionadas con Flyway, y una arquitectura basada en endpoints REST para votación, autenticación, candidatos, donaciones y administración. Cuenta con autenticación MFA, cifrado AES-256/RSA y un enfoque fuerte en seguridad y trazabilidad.
+
+- **Voto Pura Vida** – Electronic voting and crowdfunding system for Costa Rica. Built with Node.js + Express on the backend, SQL Server database, Flyway-managed migrations, and a fully REST-based endpoint architecture for voting, authentication, candidates, donations, and administration. Includes MFA authentication, AES-256/RSA encryption, and a strong focus on security and traceability.  
 🔗 https://github.com/IsaacVil/Voto-Pura-Vida
-- ** Data Environment** – Pipeline de datos y entorno de análisis con procesos ETL, integración entre sistemas y preparación de datos para dashboards (Power BI). Incluye automatización, staging y transformación orientada a modelos dimensionales.
+
+- **Data Environment** – Data pipeline and analytics environment with ETL processes, system integration, and data preparation for dashboards (Power BI). Includes automation, staging layers, and transformation oriented toward dimensional modeling.  
 🔗 https://github.com/DilanHern/Data_Enviroment
 
 ---
 
-## ¿Hablamos?
+## Let’s Link Up
 - **LinkedIn:** *https://www.linkedin.com/in/isaac-villalobos-040734380/*  
 - **Email:** *IsaacVillalobosB@gmail.com*  
 
