@@ -1,5 +1,5 @@
 # Soy Isaac Villalobos  
-### Estudiante de Ingeniería en Computación | Full-Stack Developer | Data Engineering | Bases de Datos
+### Estudiante de Ingeniería en Computación | Full-Stack Developer | Data Engineering | Data Bases
 
 Soy estudiante de Ingeniería en Computación en el **TEC (Costa Rica)** enfocado al **desarrollo full-stack**, **bases de datos**, **data engineering** y **automatización de procesos**. Me apasiona diseñar e implementar sistemas que integren software, datos y arquitectura escalable para resolver problemas reales.
 
