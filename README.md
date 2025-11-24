@@ -17,7 +17,7 @@ Soy estudiante de Ingeniería en Computación en el **TEC (Costa Rica)** enfocad
 
 ### **Frontend**
 - React
-- 
+
 ### **Data & Analytics**
 - Modelado de datos  
 - Data Warehouse  
