@@ -19,7 +19,7 @@ I build backend, data and cloud systems, yeah I know, really original.
 
 <br>
 
-I shipped an Azure-native quoting platform for industrial cooling systems as its sole developer: infrastructure as code, identity-based auth with zero stored secrets, and a RAG agent that keeps every inference inside the client's own tenant. Before that I built the AI matching layer of a platform that ranks business advisors by embeddings over a pgvector index, and unified five heterogeneous databases into a single star-schema warehouse feeding a recommendation engine that mines cross-sell rules.
+I shipped an Azure-native quoting platform for industrial cooling systems as its sole developer: infrastructure as code, identity-based auth with zero stored secrets, and a RAG agent that keeps every inference inside the client's own tenant. Before that I built the AI matching layer of a platform that ranks business advisors by embeddings over a pgvector index.
 
 <br>
 
