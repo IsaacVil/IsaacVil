@@ -142,9 +142,7 @@ I shipped an Azure-native quoting platform for industrial cooling systems as its
 <td valign="middle"><strong>Backend</strong></td>
 <td>
 <img src="https://img.shields.io/badge/-FastAPI-0d1117?style=flat-square&logo=fastapi&logoColor=009688" alt="FastAPI">
-<img src="https://img.shields.io/badge/-Node.js-0d1117?style=flat-square&logo=nodedotjs&logoColor=5FA04E" alt="Node.js">
 <img src="https://img.shields.io/badge/-Express-0d1117?style=flat-square&logo=express&logoColor=E8E8E8" alt="Express">
-<img src="https://img.shields.io/badge/-Prisma-0d1117?style=flat-square&logo=prisma&logoColor=E8E8E8" alt="Prisma">
 <img src="https://img.shields.io/badge/-REST_APIs-0d1117?style=flat-square&logo=swagger&logoColor=85EA2D" alt="REST APIs">
 </td>
 </tr>
