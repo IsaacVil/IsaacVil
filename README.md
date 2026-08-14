@@ -1,71 +1,195 @@
----
-# Isaac Villalobos  
-### Computer Engineering Student | Full-Stack Developer | Data Engineering | Databases
+<div align="center">
 
-I am a Computer Engineering student at **TEC (Costa Rica)** focused on **full-stack development**, **databases**, **data engineering**, and **process automation**. I’m passionate about designing and implementing systems that integrate software, data, and scalable architectures to solve real-world problems.
+<br><br>
 
----
+<h1>
+<img src="images/avatarLogo.png" width="140" alt="Isaac Villalobos"><br>
+Isaac Villalobos Bonilla
+</h1>
 
-## Technologies & Tools
+**Computer Engineering @ [TEC](https://www.tec.ac.cr/)**
 
-### **Backend**
-- Node.js  
-- Python  
-- Supabase (Postgres, Auth, Storage)  
-- SQL Server  
-- REST APIs  
-- ETL (extraction, transformation, and loading)
+I build backend, data and cloud systems, yeah I know, really original.
 
-### **Frontend**
-- React
+<a href="https://www.linkedin.com/in/isaac-villalobos-040734380/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyBmaWxsPSIjZmZmZmZmIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU%2BTGlua2VkSW48L3RpdGxlPjxwYXRoIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjIgMGguMDAzeiIvPjwvc3ZnPg%3D%3D" alt="LinkedIn"></a>
+<a href="https://www.instagram.com/isaacvil_/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
+<a href="https://github.com/IsaacVil"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
 
-### **Data & Analytics**
-- Data modeling  
-- Data Warehouse  
-- Advanced SQL  
-- System integrations  
-- Power BI  
-- Data science fundamentals
+</div>
 
-### **Software Engineering**
-- Requirements Engineering  
-- Technical documentation  
-- Scrum / Agile methodologies  
+<br>
 
-### **Applied Mathematics**
-- Probability  
-- Calculus  
-- Linear Algebra  
-- Discrete Mathematics  
+I shipped an Azure-native quoting platform for industrial cooling systems as its sole developer: infrastructure as code, identity-based auth with zero stored secrets, and a RAG agent that keeps every inference inside the client's own tenant. Before that I built the AI matching layer of a platform that ranks business advisors by embeddings over a pgvector index, and unified five heterogeneous databases into a single star-schema warehouse feeding a recommendation engine that mines cross-sell rules.
 
-### **Languages**
-- Native Spanish speaker
-- English C1 
+<br>
 
----
+<div align="center">
 
-## Areas of Interest
-- Backend development & API architecture  
-- Data engineering and pipelines  
-- Transactional systems and data analytics  
+## Experience
 
----
+</div>
 
-## Highlighted Projects
+<table>
+<tr>
+<td width="50%" valign="top" align="center">
+  <img src="images/AIQUOTINGLogo.png" alt="AI Quoting Platform" width="320" height="120">
+  <br><br>
+  <strong>AI Quoting Platform</strong>
+  <br><br>
+  Internal platform for pricing and configuring industrial cooling systems. Its core is a <strong>RAG quoting agent on Azure AI Foundry</strong>: a deployed chat model grounded in the client's own knowledge base served from Dataverse, with retrieval and inference kept entirely in-tenant so no client data ever leaves their subscription. Around it I worked the whole Azure footprint as modular Bicep, the multi-stage Azure DevOps pipelines, and the migration to Managed Identity and workload identity federation that removed every stored credential.
+  <br><br>
+  <img src="https://img.shields.io/badge/-Azure-0d1117?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgOTYgOTYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI%2BPGRlZnM%2BPGxpbmVhckdyYWRpZW50IGlkPSJhIiB4MT0iLTEwMzIuMTciIHgyPSItMTA1OS4yMSIgeTE9IjE0NS4zMSIgeTI9IjY1LjQzIiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDEgMCAwIC0xIDEwNzUgMTU4KSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzExNGE4YiIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzA2NjliYyIvPjwvbGluZWFyR3JhZGllbnQ%2BPGxpbmVhckdyYWRpZW50IGlkPSJiIiB4MT0iLTEwMjMuNzMiIHgyPSItMTAyOS45OCIgeTE9IjEwOC4wOCIgeTI9IjEwNS45NyIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgxIDAgMCAtMSAxMDc1IDE1OCkiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3Atb3BhY2l0eT0iLjMiLz48c3RvcCBvZmZzZXQ9Ii4wNyIgc3RvcC1vcGFjaXR5PSIuMiIvPjxzdG9wIG9mZnNldD0iLjMyIiBzdG9wLW9wYWNpdHk9Ii4xIi8%2BPHN0b3Agb2Zmc2V0PSIuNjIiIHN0b3Atb3BhY2l0eT0iLjA1Ii8%2BPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLW9wYWNpdHk9IjAiLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0iYyIgeDE9Ii0xMDI3LjE2IiB4Mj0iLTk5Ny40OCIgeTE9IjE0Ny42NCIgeTI9IjY4LjU2IiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDEgMCAwIC0xIDEwNzUgMTU4KSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzNjY2JmNCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzI4OTJkZiIvPjwvbGluZWFyR3JhZGllbnQ%2BPC9kZWZzPjxwYXRoIGZpbGw9InVybCgjYSkiIGQ9Ik0zMy4zNCA2LjU0aDI2LjA0bC0yNy4wMyA4MC4xYTQuMTUgNC4xNSAwIDAgMS0zLjk0IDIuODFIOC4xNWE0LjE0IDQuMTQgMCAwIDEtMy45My01LjQ3TDI5LjQgOS4zOGE0LjE1IDQuMTUgMCAwIDEgMy45NC0yLjgzeiIvPjxwYXRoIGZpbGw9IiMwMDc4ZDQiIGQ9Ik03MS4xNyA2MC4yNkgyOS44OGExLjkxIDEuOTEgMCAwIDAtMS4zIDMuMzFsMjYuNTMgMjQuNzZhNC4xNyA0LjE3IDAgMCAwIDIuODUgMS4xM2gyMy4zOHoiLz48cGF0aCBmaWxsPSJ1cmwoI2IpIiBkPSJNMzMuMzQgNi41NGE0LjEyIDQuMTIgMCAwIDAtMy45NSAyLjg4TDQuMjUgODMuOTJhNC4xNCA0LjE0IDAgMCAwIDMuOTEgNS41NGgyMC43OWE0LjQ0IDQuNDQgMCAwIDAgMy40LTIuOWw1LjAyLTE0Ljc4IDE3LjkxIDE2LjdhNC4yNCA0LjI0IDAgMCAwIDIuNjcuOTdoMjMuMjlMNzEuMDIgNjAuMjZINDEuMjRMNTkuNDcgNi41NXoiLz48cGF0aCBmaWxsPSJ1cmwoI2MpIiBkPSJNNjYuNiA5LjM2YTQuMTQgNC4xNCAwIDAgMC0zLjkzLTIuODJIMzMuNjVhNC4xNSA0LjE1IDAgMCAxIDMuOTMgMi44MmwyNS4xOCA3NC42MmE0LjE1IDQuMTUgMCAwIDEtMy45MyA1LjQ4aDI5LjAyYTQuMTUgNC4xNSAwIDAgMCAzLjkzLTUuNDh6Ii8%2BPC9zdmc%2B" alt="Azure">
+  <img src="https://img.shields.io/badge/-Azure_AI_Foundry-0d1117?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxOCAxOCI%2BPGRlZnM%2BPGxpbmVhckdyYWRpZW50IGlkPSJhIiB4MT0iOSIgeTE9IjE5LjEzIiB4Mj0iOSIgeTI9Ii0uMjkiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMwMDc4ZDQiLz48c3RvcCBvZmZzZXQ9Ii4xNiIgc3RvcC1jb2xvcj0iIzEzODBkYSIvPjxzdG9wIG9mZnNldD0iLjUzIiBzdG9wLWNvbG9yPSIjM2M5MWU1Ii8%2BPHN0b3Agb2Zmc2V0PSIuODIiIHN0b3AtY29sb3I9IiM1NTljZWMiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM1ZWEwZWYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cGF0aCBkPSJNMTggMTEuMzhhNCA0IDAgMDAtMy41MS0zLjg4IDUuMSA1LjEgMCAwMC01LjI1LTQuODhBNS4yNSA1LjI1IDAgMDA0LjIyIDYgNC44IDQuOCAwIDAwMCAxMC42N2E0LjkgNC45IDAgMDA1LjA3IDQuNzFoOC42NWEuNzguNzggMCAwMC4yMiAwIDQuMSA0LjEgMCAwMDQuMDYtNHoiIGZpbGw9InVybCgjYSkiLz48cGF0aCBkPSJNNS40MiAxMC4zOWgtLjg4YTEuMDkgMS4wOSAwIDEwMCAuNDloLjg4YS4yLjIgMCAwMS4yLjJ2NC4zaC40OXYtNC4zYS42OS42OSAwIDAwLS42OS0uNjl6bS0xLjk1Ljg4YS42NC42NCAwIDExLjY0LS42NC42NC42NCAwIDAxLS42NC42NHoiIGZpbGw9IiM5Y2ViZmYiLz48cGF0aCBkPSJNOC45NCAxMC42MXYtMWEuNy43IDAgMDAtLjctLjdINi42OWEuMi4yIDAgMDEtLjItLjJWMy40bC0uMjMuMTItLjI2LjE0djVhLjY5LjY5IDAgMDAuNjkuNjloMS41NWEuMjEuMjEgMCAwMS4yMS4yMXYxYTEuMDggMS4wOCAwIDAwLS44NSAxLjA2IDEuMDkgMS4wOSAwIDEwMS4zNC0xLjA2em0tLjI1IDEuN2EuNjQuNjQgMCAxMS42NC0uNjQuNjQuNjQgMCAwMS0uNjQuNjR6IiBmaWxsPSIjZjJmMmYyIi8%2BPHBhdGggZD0iTTE0LjUzIDguNWExLjA5IDEuMDkgMCAwMC0uMjUgMi4xNXYuMmEuMjEuMjEgMCAwMS0uMjEuMjFoLTJWNy41NGEuNjkuNjkgMCAwMC0uNjktLjY5aC0xLjAzQTEuMDggMS4wOCAwIDAwOS4yOSA2YTEuMDkgMS4wOSAwIDEwMS4wNiAxLjM0aDEuMDdhLjIuMiAwIDAxLjIuMnY3Ljg0aC40OXYtMy44M2gyYS43LjcgMCAwMC43LS43di0uMmExLjA5IDEuMDkgMCAwMC44NS0xLjA2IDEuMDkgMS4wOSAwIDAwLTEuMTMtMS4wOXptLTUuMjQtLjc3YS42NC42NCAwIDExLjY0LS42NC42NC42NCAwIDAxLS42NC42NHptNS4yNCAyLjVhLjY0LjY0IDAgMTEuNjMtLjY0LjY0LjY0IDAgMDEtLjYzLjY0eiIgZmlsbD0iIzljZWJmZiIvPjwvc3ZnPg%3D%3D" alt="Azure AI Foundry">
+  <img src="https://img.shields.io/badge/-Azure_DevOps-0d1117?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxOCAxOCI%2BPGRlZnM%2BPGxpbmVhckdyYWRpZW50IGlkPSJhIiB4MT0iOSIgeTE9IjE2Ljk3IiB4Mj0iOSIgeTI9IjEuMDMiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMwMDc4ZDQiLz48c3RvcCBvZmZzZXQ9Ii4xNiIgc3RvcC1jb2xvcj0iIzEzODBkYSIvPjxzdG9wIG9mZnNldD0iLjUzIiBzdG9wLWNvbG9yPSIjM2M5MWU1Ii8%2BPHN0b3Agb2Zmc2V0PSIuODIiIHN0b3AtY29sb3I9IiM1NTljZWMiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM1ZWEwZWYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cGF0aCBkPSJNMTcgNHY5Ljc0bC00IDMuMjgtNi4yLTIuMjZWMTdsLTMuNTEtNC41OSAxMC4yMy44VjQuNDR6bS0zLjQxLjQ5TDcuODUgMXYyLjI5TDIuNTggNC44NCAxIDYuODd2NC42MWwyLjI2IDFWNi41N3oiIGZpbGw9InVybCgjYSkiLz48L3N2Zz4%3D" alt="Azure DevOps">
+  <img src="https://img.shields.io/badge/-Azure_Functions-0d1117?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxOCAxOCI%2BPGRlZnM%2BPGxpbmVhckdyYWRpZW50IGlkPSJhIiB4MT0iLTE3NS45OTMiIHkxPSItMzQzLjcyMyIgeDI9Ii0xNzUuOTkzIiB5Mj0iLTM1OS4yMzIiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMS4xNTYgMCAwIDEuMDI5IDIxMi41NzMgMzcwLjU0OCkiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNmZWExMWIiLz48c3RvcCBvZmZzZXQ9Ii4yODQiIHN0b3AtY29sb3I9IiNmZWE1MWEiLz48c3RvcCBvZmZzZXQ9Ii41NDciIHN0b3AtY29sb3I9IiNmZWIwMTgiLz48c3RvcCBvZmZzZXQ9Ii44IiBzdG9wLWNvbG9yPSIjZmZjMzE0Ii8%2BPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZmZkNzBmIi8%2BPC9saW5lYXJHcmFkaWVudD48L2RlZnM%2BPHBhdGggZD0iTTUuNTQgMTMuMTA1bC0uNTg2LjU4OGEuMjY3LjI2NyAwIDAxLS4zNzcgMEwuMjIzIDkuMzUzYS41MzMuNTMzIDAgMDEwLS43NTVsLjU4OC0uNTkgNC43MzIgNC43MThhLjI2Ny4yNjcgMCAwMTAgLjM3OHoiIGZpbGw9IiM1MGU2ZmYiLz48cGF0aCBkPSJNNC44NjMgNC4zMDVsLjU5LjU4OGEuMjY3LjI2NyAwIDAxMCAuMzc4TC44MDYgOS45MzJsLS41OS0uNTg5YS41MzMuNTMzIDAgMDEtLjAwMS0uNzU0bDQuMjczLTQuMjg1YS4yNjcuMjY3IDAgMDEuMzc2IDB6IiBmaWxsPSIjMTQ5MGRmIi8%2BPHBhdGggZD0iTTE3LjE5IDguMDEybC41ODguNTlhLjUzMy41MzMgMCAwMS0uMDAxLjc1NGwtNC4zNTQgNC4zNGEuMjY3LjI2NyAwIDAxLS4zNzcgMGwtLjU4Ni0uNTg3YS4yNjcuMjY3IDAgMDEwLS4zNzdsNC43MzItNC43MTh6IiBmaWxsPSIjNTBlNmZmIi8%2BPHBhdGggZD0iTTE3Ljc4MiA5LjM0bC0uNTkuNTg5LTQuNjQ4LTQuNjYyYS4yNjcuMjY3IDAgMDEwLS4zNzdsLjU5LS41ODhhLjI2Ny4yNjcgMCAwMS4zNzggMGw0LjI3MyA0LjI4NmEuNTMzLjUzMyAwIDAxMCAuNzUzeiIgZmlsbD0iIzE0OTBkZiIvPjxwYXRoIGQ9Ik04LjQ1OSA5LjlINC44N2EuMTkzLjE5MyAwIDAxLS4yLS4xODEuMTY2LjE2NiAwIDAxLjAxOC0uMDc1TDguOTkxIDEuMTNhLjIwNi4yMDYgMCAwMS4xODYtLjEwNmg0LjI0NWEuMTkzLjE5MyAwIDAxLjIuMTgxLjE2NS4xNjUgMCAwMS0uMDM1LjFMOC41MzQgNy45NjZoNC45MjhhLjE5My4xOTMgMCAwMS4yLjE4MS4xNzYuMTc2IDAgMDEtLjA1Mi4xMjJsLTguMTg5IDguNTE5Yy0uMDc3LjA0Ni0uNjI0LjUtLjM1Ni0uMTg5eiIgZmlsbD0idXJsKCNhKSIvPjwvc3ZnPg%3D%3D" alt="Azure Functions">
+  <img src="https://img.shields.io/badge/-Bicep-0d1117?style=flat-square" alt="Bicep">
+  <img src="https://img.shields.io/badge/-Dataverse-0d1117?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyBmaWxsPSIjQzI2NEQ2IiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU%2BTWljcm9zb2Z0PC90aXRsZT48cGF0aCBkPSJNMCAwdjExLjQwOGgxMS40MDhWMHptMTIuNTk0IDB2MTEuNDA4SDI0VjB6TTAgMTIuNTk0VjI0aDExLjQwOFYxMi41OTR6bTEyLjU5NCAwVjI0SDI0VjEyLjU5NHoiLz48L3N2Zz4%3D" alt="Dataverse">
+  <img src="https://img.shields.io/badge/-Python-0d1117?style=flat-square&logo=python&logoColor=4B8BBE" alt="Python">
+  <img src="https://img.shields.io/badge/-RAG-0d1117?style=flat-square" alt="RAG">
+  <br><br>
+  <img src="https://img.shields.io/badge/client_work-private_repo-30363d?style=flat-square&logo=github&logoColor=white" alt="private repo">
+</td>
 
-- **Data Environment** – Data Environment is a full end-to-end data engineering platform that integrates heterogeneous transactional systems (PostgreSQL/Supabase, SQL Server, MySQL, MongoDB, Neo4j) into a unified analytical ecosystem. It includes automated ETL pipelines in Python, a dimensional Data Warehouse built on SQL Server, a complete staging and integration workflow, and an Apriori-based recommendation engine. The environment prepares clean, enriched, business-ready data consumed by React frontends and Power BI dashboards for decision-making and sales intelligence.  
-🔗 https://github.com/DilanHern/Data_Enviroment
+<td width="50%" valign="top" align="center">
+  <a href="https://github.com/IsaacVil/PymeBoost"><img src="images/pymeboostLogo.png" alt="PymeBoost" width="320" height="120"></a>
+  <br><br>
+  <strong>PymeBoost</strong>
+  <br><br>
+  Platform matching Costa Rican SMEs with vetted business advisors. I structured the FastAPI backend around Domain-Driven Design and vertical slices, moved the system onto a Pub/Sub event bus for fault-tolerant workflows with a real audit trail, and built the matching layer with LangGraph over a pgvector index. Onboarding validates legal documents via OCR against the official MEIC registry.
+  <br><br>
+  <img src="https://img.shields.io/badge/-FastAPI-0d1117?style=flat-square&logo=fastapi&logoColor=009688" alt="FastAPI">
+  <img src="https://img.shields.io/badge/-GitHub_Actions-0d1117?style=flat-square&logo=githubactions&logoColor=2088FF" alt="GitHub Actions">
+  <img src="https://img.shields.io/badge/-LangGraph-0d1117?style=flat-square&logo=langgraph&logoColor=E8E8E8" alt="LangGraph">
+  <img src="https://img.shields.io/badge/-pgvector-0d1117?style=flat-square&logo=postgresql&logoColor=4169E1" alt="pgvector">
+  <img src="https://img.shields.io/badge/-Python-0d1117?style=flat-square&logo=python&logoColor=4B8BBE" alt="Python">
+  <br><br>
+  <a href="https://pymeboost-v1.vercel.app/"><img src="https://img.shields.io/badge/live_prototype-000000?style=flat-square&logo=vercel&logoColor=white" alt="live prototype"></a>
+  <a href="https://github.com/IsaacVil/PymeBoost"><img src="https://img.shields.io/badge/repository-8A2BE2?style=flat-square&logo=github&logoColor=white" alt="repository"></a>
+</td>
+</tr>
 
-- **Voto Pura Vida** – Electronic voting and crowdfunding system for Costa Rica. Built with Node.js + Express on the backend, SQL Server database, Flyway-managed migrations, and a fully REST-based endpoint architecture for voting, authentication, candidates, donations, and administration. Includes MFA authentication, AES-256/RSA encryption, and a strong focus on security and traceability.  
-🔗 https://github.com/IsaacVil/Voto-Pura-Vida
+<tr>
+<td width="50%" valign="top" align="center">
+  <a href="https://github.com/DilanHern/Data_Enviroment"><img src="images/DataEnvLogo.png" alt="Data Environment" width="320" height="120"></a>
+  <br><br>
+  <strong>Data Environment</strong>
+  <br><br>
+  End-to-end data platform that folds five heterogeneous databases (PostgreSQL, SQL Server, MySQL, MongoDB and Neo4j) into one analytical ecosystem. Modular Python ETL pipelines extract, de-duplicate and reconcile SKU equivalences across sources into a star-schema warehouse, and an Apriori engine mines cross-sell rules surfaced through React and Power BI.
+  <br><br>
+  <img src="https://img.shields.io/badge/-Neo4j-0d1117?style=flat-square&logo=neo4j&logoColor=4581C3" alt="Neo4j">
+  <img src="https://img.shields.io/badge/-pandas-0d1117?style=flat-square&logo=pandas&logoColor=E8E8E8" alt="pandas">
+  <img src="https://img.shields.io/badge/-Power_BI-0d1117?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyBmaWxsPSIjRjJDODExIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU%2BUG93ZXIgQkk8L3RpdGxlPjxwYXRoIGQ9Ik0xMCAxMmExIDEgMCAwIDEgMSAxdjExSDRhMSAxIDAgMCAxLTEtMVYxM2ExIDEgMCAwIDEgMS0xaDZabS0yLS41VjdhMSAxIDAgMCAxIDEtMWg2YTEgMSAwIDAgMSAxIDF2MTdoLTQuNVYxM2ExLjUgMS41IDAgMCAwLTEuNS0xLjVIOFptNS02VjFhMSAxIDAgMCAxIDEtMWg2YTEgMSAwIDAgMSAxIDF2MjJhMSAxIDAgMCAxLTEgMWgtMy41VjdBMS41IDEuNSAwIDAgMCAxNSA1LjVoLTJaIi8%2BPC9zdmc%2B" alt="Power BI">
+  <img src="https://img.shields.io/badge/-Python-0d1117?style=flat-square&logo=python&logoColor=4B8BBE" alt="Python">
+  <img src="https://img.shields.io/badge/-SQL_Server-0d1117?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxOCAxOCI%2BPGRlZnM%2BPGxpbmVhckdyYWRpZW50IGlkPSJhIiB4MT0iLjUiIHkxPSIxMC4wNCIgeDI9IjEzLjE4IiB5Mj0iMTAuMDQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMwMDViYTEiLz48c3RvcCBvZmZzZXQ9Ii4wNyIgc3RvcC1jb2xvcj0iIzAwNjBhOSIvPjxzdG9wIG9mZnNldD0iLjM2IiBzdG9wLWNvbG9yPSIjMDA3MWM4Ii8%2BPHN0b3Agb2Zmc2V0PSIuNTIiIHN0b3AtY29sb3I9IiMwMDc4ZDQiLz48c3RvcCBvZmZzZXQ9Ii42NCIgc3RvcC1jb2xvcj0iIzAwNzRjZCIvPjxzdG9wIG9mZnNldD0iLjgyIiBzdG9wLWNvbG9yPSIjMDA2YWJiIi8%2BPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMDA1YmExIi8%2BPC9saW5lYXJHcmFkaWVudD48L2RlZnM%2BPHBhdGggZD0iTTYuODQgNS4wOWMtMy41IDAtNi4zNC0xLTYuMzQtMi4zVjE1YzAgMS4yNiAyLjc5IDIuMjggNi4yNSAyLjNoLjA5YzMuNSAwIDYuMzQtMSA2LjM0LTIuM1YyLjc5YzAgMS4yNy0yLjg0IDIuMy02LjM0IDIuM3oiIGZpbGw9InVybCgjYSkiLz48cGF0aCBkPSJNMTMuMTggMi43OWMwIDEuMjctMi44NCAyLjMtNi4zNCAyLjNTLjUgNC4wNi41IDIuNzkgMy4zNC40OSA2Ljg0LjQ5czYuMzQgMSA2LjM0IDIuMyIgZmlsbD0iI2U4ZThlOCIvPjxwYXRoIGQ9Ik0xMS43IDIuNmMwIC44MS0yLjE4IDEuNDYtNC44NiAxLjQ2UzIgMy40MSAyIDIuNnMyLjE2LTEuNDYgNC44NC0xLjQ2IDQuODYuNjYgNC44NiAxLjQ2IiBmaWxsPSIjNTBlNmZmIi8%2BPHBhdGggZD0iTTYuODQgMi45NEExMiAxMiAwIDAwMyAzLjQ5YTExLjI1IDExLjI1IDAgMDAzLjg1LjU3IDExLjI1IDExLjI1IDAgMDAzLjg1LS41NyAxMiAxMiAwIDAwLTMuODYtLjU1eiIgZmlsbD0iIzE5OGFiMyIvPjxwYXRoIGQ9Ik0xMC43NCAxMS4xVjcuNzJoLS45M3Y0LjE0aDIuNDZ2LS43NnpNMy41OSA5LjQzYTEuOTIgMS45MiAwIDAxLS41MS0uMzFBLjQ0LjQ0IDAgMDEzIDguOGEuMzguMzggMCAwMS4xNi0uMzEuNzIuNzIgMCAwMS40Mi0uMTEgMS42NyAxLjY3IDAgMDExIC4yOXYtLjg2YTIuNjcgMi42NyAwIDAwLTEtLjE2IDEuNzQgMS43NCAwIDAwLTEuMi4zNSAxLjEzIDEuMTMgMCAwMC0uNDEuOWMwIC41MS4zMi45MSAxIDEuMjFhMi45IDIuOSAwIDAxLjYxLjM2LjQuNCAwIDAxLjE2LjMyLjM4LjM4IDAgMDEtLjE2LjMxLjc1Ljc1IDAgMDEtLjQ1LjEyQTEuNiAxLjYgMCAwMTIgMTAuNzd2LjkzYTIuMjkgMi4yOSAwIDAwMS4wNy4yMyAyIDIgMCAwMDEuMTgtLjMyIDEuMSAxLjEgMCAwMC40My0uOTIgMSAxIDAgMDAtLjI1LS43IDIuNDIgMi40MiAwIDAwLS44NC0uNTZ6TTguNzkgMTFhMi40IDIuNCAwIDAwLjMzLTEuMjcgMi4zMiAyLjMyIDAgMDAtLjI1LTEuMSAxLjgxIDEuODEgMCAwMC0uNy0uNzUgMiAyIDAgMDAtMS0uMjYgMi4xOCAyLjE4IDAgMDAtMS4wOS4yNyAxLjg3IDEuODcgMCAwMC0uNzMuNzcgMi40MSAyLjQxIDAgMDAtLjI2IDEuMTUgMi4yNiAyLjI2IDAgMDAuMjQgMS4wNSAxLjgzIDEuODMgMCAwMC42OC43NSAyIDIgMCAwMDEgLjI5bC44NSAxaDEuMTlsLTEuMi0xLjExYTEuODEgMS44MSAwIDAwLjk0LS43OXptLS45My0uMjZhMSAxIDAgMDEtMS41MyAwIDEuNTEgMS41MSAwIDAxLS4yOC0xIDEuNDggMS40OCAwIDAxLjI5LTEgLjkyLjkyIDAgMDEuNzgtLjM3Ljg5Ljg5IDAgMDEuNzUuMzcgMS42MiAxLjYyIDAgMDEuMjcgMSAxLjQ2IDEuNDYgMCAwMS0uMjggMS4wM3oiIGZpbGw9IiNmMmYyZjIiLz48cGF0aCBkPSJNMTQuODEgMTcuNDlsLjI0LS43OS40Ny0uMjcuODEuMzYuNTItLjUzdi0uMDZsLS4zNy0uNzEuMjItLjUuODEtLjI5aC4wOXYtLjczaC0uMWwtLjgtLjI0LS4yNi0uNDYuMzUtLjgyLS41My0uNTFoLS4wNmwtLjcxLjM2TDE1IDEybC0uMzItLjg5aC0uNzR2LjExbC0uMjQuNzktLjUxLjIyLS44Ny0uNC0uNTEuNTMuMDUuMS4zOC43NC0uMi41MS0uOTQuMjl2Ljc0aC4xMWwuNzkuMjQuMjIuNTEtLjM5Ljg2LjUzLjUyLjA5LS4wNS43NC0uMzguNTEuMi4zNC44OWguNzN6bS0xLjItMi4zNmExLjA2IDEuMDYgMCAxMTEuNDktMS41MiAxLjA2IDEuMDYgMCAwMS0xLjQ5IDEuNTJ6IiBmaWxsPSIjOTQ5NDk0Ii8%2BPC9zdmc%2B" alt="SQL Server">
+  <br><br>
+  <a href="https://github.com/DilanHern/Data_Enviroment"><img src="https://img.shields.io/badge/repository-8A2BE2?style=flat-square&logo=github&logoColor=white" alt="repository"></a>
+</td>
 
-- **Soltura_DB** – Sales and inventory management system with an academic/professional focus. Includes relational modeling, triggers, stored procedures, transactions, referential integrity, and optimized queries for a realistic business environment.  
-🔗 https://github.com/AllanDBB/Soltura_DB
+<td width="50%" valign="top" align="center">
+  <a href="https://github.com/IsaacVil/Voto-Pura-Vida"><img src="images/VotoPuraVidaLogo.png" alt="Voto Pura Vida" width="320" height="120"></a>
+  <br><br>
+  <strong>Voto Pura Vida</strong>
+  <br><br>
+  Electronic voting and crowdfunding platform for Costa Rica, on Node.js/Express over SQL Server, exposing REST endpoints for voting, proposals, investments and dividend distribution. Hardened with multi-factor authentication, AES-256/RSA encryption and full audit-trail logging; business logic lives in both Prisma and native stored procedures, with schema evolution under versioned Flyway migrations.
+  <br><br>
+  <img src="https://img.shields.io/badge/-Express-0d1117?style=flat-square&logo=express&logoColor=E8E8E8" alt="Express">
+  <img src="https://img.shields.io/badge/-Flyway-0d1117?style=flat-square&logo=flyway&logoColor=CC0200" alt="Flyway">
+  <img src="https://img.shields.io/badge/-Node.js-0d1117?style=flat-square&logo=nodedotjs&logoColor=5FA04E" alt="Node.js">
+  <img src="https://img.shields.io/badge/-Prisma-0d1117?style=flat-square&logo=prisma&logoColor=E8E8E8" alt="Prisma">
+  <img src="https://img.shields.io/badge/-SQL_Server-0d1117?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxOCAxOCI%2BPGRlZnM%2BPGxpbmVhckdyYWRpZW50IGlkPSJhIiB4MT0iLjUiIHkxPSIxMC4wNCIgeDI9IjEzLjE4IiB5Mj0iMTAuMDQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMwMDViYTEiLz48c3RvcCBvZmZzZXQ9Ii4wNyIgc3RvcC1jb2xvcj0iIzAwNjBhOSIvPjxzdG9wIG9mZnNldD0iLjM2IiBzdG9wLWNvbG9yPSIjMDA3MWM4Ii8%2BPHN0b3Agb2Zmc2V0PSIuNTIiIHN0b3AtY29sb3I9IiMwMDc4ZDQiLz48c3RvcCBvZmZzZXQ9Ii42NCIgc3RvcC1jb2xvcj0iIzAwNzRjZCIvPjxzdG9wIG9mZnNldD0iLjgyIiBzdG9wLWNvbG9yPSIjMDA2YWJiIi8%2BPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMDA1YmExIi8%2BPC9saW5lYXJHcmFkaWVudD48L2RlZnM%2BPHBhdGggZD0iTTYuODQgNS4wOWMtMy41IDAtNi4zNC0xLTYuMzQtMi4zVjE1YzAgMS4yNiAyLjc5IDIuMjggNi4yNSAyLjNoLjA5YzMuNSAwIDYuMzQtMSA2LjM0LTIuM1YyLjc5YzAgMS4yNy0yLjg0IDIuMy02LjM0IDIuM3oiIGZpbGw9InVybCgjYSkiLz48cGF0aCBkPSJNMTMuMTggMi43OWMwIDEuMjctMi44NCAyLjMtNi4zNCAyLjNTLjUgNC4wNi41IDIuNzkgMy4zNC40OSA2Ljg0LjQ5czYuMzQgMSA2LjM0IDIuMyIgZmlsbD0iI2U4ZThlOCIvPjxwYXRoIGQ9Ik0xMS43IDIuNmMwIC44MS0yLjE4IDEuNDYtNC44NiAxLjQ2UzIgMy40MSAyIDIuNnMyLjE2LTEuNDYgNC44NC0xLjQ2IDQuODYuNjYgNC44NiAxLjQ2IiBmaWxsPSIjNTBlNmZmIi8%2BPHBhdGggZD0iTTYuODQgMi45NEExMiAxMiAwIDAwMyAzLjQ5YTExLjI1IDExLjI1IDAgMDAzLjg1LjU3IDExLjI1IDExLjI1IDAgMDAzLjg1LS41NyAxMiAxMiAwIDAwLTMuODYtLjU1eiIgZmlsbD0iIzE5OGFiMyIvPjxwYXRoIGQ9Ik0xMC43NCAxMS4xVjcuNzJoLS45M3Y0LjE0aDIuNDZ2LS43NnpNMy41OSA5LjQzYTEuOTIgMS45MiAwIDAxLS41MS0uMzFBLjQ0LjQ0IDAgMDEzIDguOGEuMzguMzggMCAwMS4xNi0uMzEuNzIuNzIgMCAwMS40Mi0uMTEgMS42NyAxLjY3IDAgMDExIC4yOXYtLjg2YTIuNjcgMi42NyAwIDAwLTEtLjE2IDEuNzQgMS43NCAwIDAwLTEuMi4zNSAxLjEzIDEuMTMgMCAwMC0uNDEuOWMwIC41MS4zMi45MSAxIDEuMjFhMi45IDIuOSAwIDAxLjYxLjM2LjQuNCAwIDAxLjE2LjMyLjM4LjM4IDAgMDEtLjE2LjMxLjc1Ljc1IDAgMDEtLjQ1LjEyQTEuNiAxLjYgMCAwMTIgMTAuNzd2LjkzYTIuMjkgMi4yOSAwIDAwMS4wNy4yMyAyIDIgMCAwMDEuMTgtLjMyIDEuMSAxLjEgMCAwMC40My0uOTIgMSAxIDAgMDAtLjI1LS43IDIuNDIgMi40MiAwIDAwLS44NC0uNTZ6TTguNzkgMTFhMi40IDIuNCAwIDAwLjMzLTEuMjcgMi4zMiAyLjMyIDAgMDAtLjI1LTEuMSAxLjgxIDEuODEgMCAwMC0uNy0uNzUgMiAyIDAgMDAtMS0uMjYgMi4xOCAyLjE4IDAgMDAtMS4wOS4yNyAxLjg3IDEuODcgMCAwMC0uNzMuNzcgMi40MSAyLjQxIDAgMDAtLjI2IDEuMTUgMi4yNiAyLjI2IDAgMDAuMjQgMS4wNSAxLjgzIDEuODMgMCAwMC42OC43NSAyIDIgMCAwMDEgLjI5bC44NSAxaDEuMTlsLTEuMi0xLjExYTEuODEgMS44MSAwIDAwLjk0LS43OXptLS45My0uMjZhMSAxIDAgMDEtMS41MyAwIDEuNTEgMS41MSAwIDAxLS4yOC0xIDEuNDggMS40OCAwIDAxLjI5LTEgLjkyLjkyIDAgMDEuNzgtLjM3Ljg5Ljg5IDAgMDEuNzUuMzcgMS42MiAxLjYyIDAgMDEuMjcgMSAxLjQ2IDEuNDYgMCAwMS0uMjggMS4wM3oiIGZpbGw9IiNmMmYyZjIiLz48cGF0aCBkPSJNMTQuODEgMTcuNDlsLjI0LS43OS40Ny0uMjcuODEuMzYuNTItLjUzdi0uMDZsLS4zNy0uNzEuMjItLjUuODEtLjI5aC4wOXYtLjczaC0uMWwtLjgtLjI0LS4yNi0uNDYuMzUtLjgyLS41My0uNTFoLS4wNmwtLjcxLjM2TDE1IDEybC0uMzItLjg5aC0uNzR2LjExbC0uMjQuNzktLjUxLjIyLS44Ny0uNC0uNTEuNTMuMDUuMS4zOC43NC0uMi41MS0uOTQuMjl2Ljc0aC4xMWwuNzkuMjQuMjIuNTEtLjM5Ljg2LjUzLjUyLjA5LS4wNS43NC0uMzguNTEuMi4zNC44OWguNzN6bS0xLjItMi4zNmExLjA2IDEuMDYgMCAxMTEuNDktMS41MiAxLjA2IDEuMDYgMCAwMS0xLjQ5IDEuNTJ6IiBmaWxsPSIjOTQ5NDk0Ii8%2BPC9zdmc%2B" alt="SQL Server">
+  <br><br>
+  <a href="https://github.com/IsaacVil/Voto-Pura-Vida"><img src="https://img.shields.io/badge/repository-8A2BE2?style=flat-square&logo=github&logoColor=white" alt="repository"></a>
+</td>
+</tr>
+</table>
 
----
+<br>
 
-## Let’s Link Up
-- **LinkedIn:** *https://www.linkedin.com/in/isaac-villalobos-040734380/*  
-- **Email:** *IsaacVillalobosB@gmail.com*  
+<div align="center">
 
----
+## The stuff I actually use
+
+</div>
+
+<table>
+<tr>
+<td valign="middle"><strong>Languages</strong></td>
+<td>
+<img src="https://img.shields.io/badge/-Python-0d1117?style=flat-square&logo=python&logoColor=4B8BBE" alt="Python">
+<img src="https://img.shields.io/badge/-TypeScript-0d1117?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript">
+<img src="https://img.shields.io/badge/-JavaScript-0d1117?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript">
+<img src="https://img.shields.io/badge/-C%2B%2B-0d1117?style=flat-square&logo=cplusplus&logoColor=659AD2" alt="C++">
+<img src="https://img.shields.io/badge/-C-0d1117?style=flat-square&logo=c&logoColor=A8B9CC" alt="C">
+<img src="https://img.shields.io/badge/-SQL-0d1117?style=flat-square" alt="SQL">
+</td>
+</tr>
+<tr>
+<td valign="middle"><strong>Cloud &amp; DevOps</strong></td>
+<td>
+<img src="https://img.shields.io/badge/-Azure-0d1117?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgOTYgOTYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI%2BPGRlZnM%2BPGxpbmVhckdyYWRpZW50IGlkPSJhIiB4MT0iLTEwMzIuMTciIHgyPSItMTA1OS4yMSIgeTE9IjE0NS4zMSIgeTI9IjY1LjQzIiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDEgMCAwIC0xIDEwNzUgMTU4KSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzExNGE4YiIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzA2NjliYyIvPjwvbGluZWFyR3JhZGllbnQ%2BPGxpbmVhckdyYWRpZW50IGlkPSJiIiB4MT0iLTEwMjMuNzMiIHgyPSItMTAyOS45OCIgeTE9IjEwOC4wOCIgeTI9IjEwNS45NyIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgxIDAgMCAtMSAxMDc1IDE1OCkiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3Atb3BhY2l0eT0iLjMiLz48c3RvcCBvZmZzZXQ9Ii4wNyIgc3RvcC1vcGFjaXR5PSIuMiIvPjxzdG9wIG9mZnNldD0iLjMyIiBzdG9wLW9wYWNpdHk9Ii4xIi8%2BPHN0b3Agb2Zmc2V0PSIuNjIiIHN0b3Atb3BhY2l0eT0iLjA1Ii8%2BPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLW9wYWNpdHk9IjAiLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0iYyIgeDE9Ii0xMDI3LjE2IiB4Mj0iLTk5Ny40OCIgeTE9IjE0Ny42NCIgeTI9IjY4LjU2IiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDEgMCAwIC0xIDEwNzUgMTU4KSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzNjY2JmNCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzI4OTJkZiIvPjwvbGluZWFyR3JhZGllbnQ%2BPC9kZWZzPjxwYXRoIGZpbGw9InVybCgjYSkiIGQ9Ik0zMy4zNCA2LjU0aDI2LjA0bC0yNy4wMyA4MC4xYTQuMTUgNC4xNSAwIDAgMS0zLjk0IDIuODFIOC4xNWE0LjE0IDQuMTQgMCAwIDEtMy45My01LjQ3TDI5LjQgOS4zOGE0LjE1IDQuMTUgMCAwIDEgMy45NC0yLjgzeiIvPjxwYXRoIGZpbGw9IiMwMDc4ZDQiIGQ9Ik03MS4xNyA2MC4yNkgyOS44OGExLjkxIDEuOTEgMCAwIDAtMS4zIDMuMzFsMjYuNTMgMjQuNzZhNC4xNyA0LjE3IDAgMCAwIDIuODUgMS4xM2gyMy4zOHoiLz48cGF0aCBmaWxsPSJ1cmwoI2IpIiBkPSJNMzMuMzQgNi41NGE0LjEyIDQuMTIgMCAwIDAtMy45NSAyLjg4TDQuMjUgODMuOTJhNC4xNCA0LjE0IDAgMCAwIDMuOTEgNS41NGgyMC43OWE0LjQ0IDQuNDQgMCAwIDAgMy40LTIuOWw1LjAyLTE0Ljc4IDE3LjkxIDE2LjdhNC4yNCA0LjI0IDAgMCAwIDIuNjcuOTdoMjMuMjlMNzEuMDIgNjAuMjZINDEuMjRMNTkuNDcgNi41NXoiLz48cGF0aCBmaWxsPSJ1cmwoI2MpIiBkPSJNNjYuNiA5LjM2YTQuMTQgNC4xNCAwIDAgMC0zLjkzLTIuODJIMzMuNjVhNC4xNSA0LjE1IDAgMCAxIDMuOTMgMi44MmwyNS4xOCA3NC42MmE0LjE1IDQuMTUgMCAwIDEtMy45MyA1LjQ4aDI5LjAyYTQuMTUgNC4xNSAwIDAgMCAzLjkzLTUuNDh6Ii8%2BPC9zdmc%2B" alt="Azure">
+<img src="https://img.shields.io/badge/-Azure_Functions-0d1117?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxOCAxOCI%2BPGRlZnM%2BPGxpbmVhckdyYWRpZW50IGlkPSJhIiB4MT0iLTE3NS45OTMiIHkxPSItMzQzLjcyMyIgeDI9Ii0xNzUuOTkzIiB5Mj0iLTM1OS4yMzIiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMS4xNTYgMCAwIDEuMDI5IDIxMi41NzMgMzcwLjU0OCkiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNmZWExMWIiLz48c3RvcCBvZmZzZXQ9Ii4yODQiIHN0b3AtY29sb3I9IiNmZWE1MWEiLz48c3RvcCBvZmZzZXQ9Ii41NDciIHN0b3AtY29sb3I9IiNmZWIwMTgiLz48c3RvcCBvZmZzZXQ9Ii44IiBzdG9wLWNvbG9yPSIjZmZjMzE0Ii8%2BPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZmZkNzBmIi8%2BPC9saW5lYXJHcmFkaWVudD48L2RlZnM%2BPHBhdGggZD0iTTUuNTQgMTMuMTA1bC0uNTg2LjU4OGEuMjY3LjI2NyAwIDAxLS4zNzcgMEwuMjIzIDkuMzUzYS41MzMuNTMzIDAgMDEwLS43NTVsLjU4OC0uNTkgNC43MzIgNC43MThhLjI2Ny4yNjcgMCAwMTAgLjM3OHoiIGZpbGw9IiM1MGU2ZmYiLz48cGF0aCBkPSJNNC44NjMgNC4zMDVsLjU5LjU4OGEuMjY3LjI2NyAwIDAxMCAuMzc4TC44MDYgOS45MzJsLS41OS0uNTg5YS41MzMuNTMzIDAgMDEtLjAwMS0uNzU0bDQuMjczLTQuMjg1YS4yNjcuMjY3IDAgMDEuMzc2IDB6IiBmaWxsPSIjMTQ5MGRmIi8%2BPHBhdGggZD0iTTE3LjE5IDguMDEybC41ODguNTlhLjUzMy41MzMgMCAwMS0uMDAxLjc1NGwtNC4zNTQgNC4zNGEuMjY3LjI2NyAwIDAxLS4zNzcgMGwtLjU4Ni0uNTg3YS4yNjcuMjY3IDAgMDEwLS4zNzdsNC43MzItNC43MTh6IiBmaWxsPSIjNTBlNmZmIi8%2BPHBhdGggZD0iTTE3Ljc4MiA5LjM0bC0uNTkuNTg5LTQuNjQ4LTQuNjYyYS4yNjcuMjY3IDAgMDEwLS4zNzdsLjU5LS41ODhhLjI2Ny4yNjcgMCAwMS4zNzggMGw0LjI3MyA0LjI4NmEuNTMzLjUzMyAwIDAxMCAuNzUzeiIgZmlsbD0iIzE0OTBkZiIvPjxwYXRoIGQ9Ik04LjQ1OSA5LjlINC44N2EuMTkzLjE5MyAwIDAxLS4yLS4xODEuMTY2LjE2NiAwIDAxLjAxOC0uMDc1TDguOTkxIDEuMTNhLjIwNi4yMDYgMCAwMS4xODYtLjEwNmg0LjI0NWEuMTkzLjE5MyAwIDAxLjIuMTgxLjE2NS4xNjUgMCAwMS0uMDM1LjFMOC41MzQgNy45NjZoNC45MjhhLjE5My4xOTMgMCAwMS4yLjE4MS4xNzYuMTc2IDAgMDEtLjA1Mi4xMjJsLTguMTg5IDguNTE5Yy0uMDc3LjA0Ni0uNjI0LjUtLjM1Ni0uMTg5eiIgZmlsbD0idXJsKCNhKSIvPjwvc3ZnPg%3D%3D" alt="Azure Functions">
+<img src="https://img.shields.io/badge/-Bicep-0d1117?style=flat-square" alt="Bicep">
+<img src="https://img.shields.io/badge/-Azure_DevOps-0d1117?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxOCAxOCI%2BPGRlZnM%2BPGxpbmVhckdyYWRpZW50IGlkPSJhIiB4MT0iOSIgeTE9IjE2Ljk3IiB4Mj0iOSIgeTI9IjEuMDMiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMwMDc4ZDQiLz48c3RvcCBvZmZzZXQ9Ii4xNiIgc3RvcC1jb2xvcj0iIzEzODBkYSIvPjxzdG9wIG9mZnNldD0iLjUzIiBzdG9wLWNvbG9yPSIjM2M5MWU1Ii8%2BPHN0b3Agb2Zmc2V0PSIuODIiIHN0b3AtY29sb3I9IiM1NTljZWMiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM1ZWEwZWYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cGF0aCBkPSJNMTcgNHY5Ljc0bC00IDMuMjgtNi4yLTIuMjZWMTdsLTMuNTEtNC41OSAxMC4yMy44VjQuNDR6bS0zLjQxLjQ5TDcuODUgMXYyLjI5TDIuNTggNC44NCAxIDYuODd2NC42MWwyLjI2IDFWNi41N3oiIGZpbGw9InVybCgjYSkiLz48L3N2Zz4%3D" alt="Azure DevOps">
+<img src="https://img.shields.io/badge/-Entra_ID-0d1117?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxOCAxOCI%2BPGRlZnM%2BPGxpbmVhckdyYWRpZW50IGlkPSJhIiB4MT0iMTMuMjUiIHkxPSIxMy4wMiIgeDI9IjguNjIiIHkyPSI0LjI1IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI%2BPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjMTk4OGQ5Ii8%2BPHN0b3Agb2Zmc2V0PSIuOSIgc3RvcC1jb2xvcj0iIzU0YWVmMCIvPjwvbGluZWFyR3JhZGllbnQ%2BPGxpbmVhckdyYWRpZW50IGlkPSJiIiB4MT0iMTEuMjYiIHkxPSIxMC40NyIgeDI9IjE0LjQ2IiB5Mj0iMTUuOTkiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9Ii4xIiBzdG9wLWNvbG9yPSIjNTRhZWYwIi8%2BPHN0b3Agb2Zmc2V0PSIuMjkiIHN0b3AtY29sb3I9IiM0ZmFiZWUiLz48c3RvcCBvZmZzZXQ9Ii41MSIgc3RvcC1jb2xvcj0iIzQxYTJlOSIvPjxzdG9wIG9mZnNldD0iLjc0IiBzdG9wLWNvbG9yPSIjMmE5M2UwIi8%2BPHN0b3Agb2Zmc2V0PSIuODgiIHN0b3AtY29sb3I9IiMxOTg4ZDkiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cGF0aCBmaWxsPSIjNTBlNmZmIiBkPSJNMS4wMSAxMC4xOWw3LjkyIDUuMTQgOC4wNi01LjE2TDE4IDExLjM1bC05LjA3IDUuODRMMCAxMS4zNWwxLjAxLTEuMTZ6Ii8%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTEuNjEgOS41M0w4LjkzLjgxbDcuNDcgOC43My03LjQ3IDQuNzItNy4zMi00LjczeiIvPjxwYXRoIGZpbGw9IiM1MGU2ZmYiIGQ9Ik04LjkzLjgxdjEzLjQ1TDEuNjEgOS41MyA4LjkzLjgxeiIvPjxwYXRoIGZpbGw9InVybCgjYSkiIGQ9Ik04LjkzLjgxdjEzLjQ1bDcuNDctNC43Mkw4LjkzLjgxeiIvPjxwYXRoIGZpbGw9IiM1M2IxZTAiIGQ9Ik04LjkzIDcuNzZsNy40NyAxLjc4LTcuNDcgNC43MnYtNi41eiIvPjxwYXRoIGZpbGw9IiM5Y2ViZmYiIGQ9Ik04LjkzIDE0LjI2TDEuNjEgOS41M2w3LjMyLTEuNzd2Ni41eiIvPjxwYXRoIGZpbGw9InVybCgjYikiIGQ9Ik04LjkzIDE3LjE5TDE4IDExLjM1bC0xLjAxLTEuMTgtOC4wNiA1LjE2djEuODZ6Ii8%2BPC9zdmc%2B" alt="Entra ID">
+<img src="https://img.shields.io/badge/-GitHub_Actions-0d1117?style=flat-square&logo=githubactions&logoColor=2088FF" alt="GitHub Actions">
+<img src="https://img.shields.io/badge/-Docker-0d1117?style=flat-square&logo=docker&logoColor=2496ED" alt="Docker">
+<img src="https://img.shields.io/badge/-PowerShell-0d1117?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyBmaWxsPSIjNTM5MUZFIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU%2BUG93ZXJTaGVsbDwvdGl0bGU%2BPHBhdGggZD0iTTIzLjE4MSAyLjk3NGMuNTY4IDAgLjkyMy40NjMuNzkyIDEuMDM1bC0zLjY1OSAxNS45ODJjLS4xMy41NzItLjY5NyAxLjAzNS0xLjI2NSAxLjAzNUguODE5Yy0uNTY4IDAtLjkyMy0uNDYzLS43OTItMS4wMzVMMy42ODYgNC4wMDljLjEzLS41NzIuNjk3LTEuMDM1IDEuMjY1LTEuMDM1em0tOC4zNzUgOS4zNDZjLjI1MS0uMzk0LjIyNy0uOTA1LS4wOS0xLjI0M0w5LjEyMiA1LjEyNWMtLjM4LS40MDQtMS4wMzctLjQwNy0xLjQ2Ni0uMDAzLS40MjkuNDAyLS40NjggMS4wNTYtLjA4OCAxLjQ2bDQuNjYyIDQuOTZ2LjExbC03LjQyIDUuMzc0Yy0uNDUuMzI3LS41MzMuOTc3LS4xODcgMS40NTMuMzQ2LjQ3Ni45OTEuNTk3IDEuNDQuMjdsOC4yMjktNS45MWMuMjgtLjE5Ni40MzgtLjM2NS41MTQtLjUyem0tMi43OTYgNC4zOTlhLjkyOC45MjggMCAwMC0uOTM0LjkyM2MwIC41MS40MTguOTIzLjkzNC45MjNoNC40MzNhLjkyOC45MjggMCAwMC45MzQtLjkyMy45MjguOTI4IDAgMDAtLjkzNC0uOTIzeiIvPjwvc3ZnPg%3D%3D" alt="PowerShell">
+<img src="https://img.shields.io/badge/-Git-0d1117?style=flat-square&logo=git&logoColor=F05032" alt="Git">
+<img src="https://img.shields.io/badge/-Vercel-0d1117?style=flat-square&logo=vercel&logoColor=E8E8E8" alt="Vercel">
+</td>
+</tr>
+<tr>
+<td valign="middle"><strong>Backend</strong></td>
+<td>
+<img src="https://img.shields.io/badge/-FastAPI-0d1117?style=flat-square&logo=fastapi&logoColor=009688" alt="FastAPI">
+<img src="https://img.shields.io/badge/-Node.js-0d1117?style=flat-square&logo=nodedotjs&logoColor=5FA04E" alt="Node.js">
+<img src="https://img.shields.io/badge/-Express-0d1117?style=flat-square&logo=express&logoColor=E8E8E8" alt="Express">
+<img src="https://img.shields.io/badge/-Prisma-0d1117?style=flat-square&logo=prisma&logoColor=E8E8E8" alt="Prisma">
+<img src="https://img.shields.io/badge/-REST_APIs-0d1117?style=flat-square&logo=swagger&logoColor=85EA2D" alt="REST APIs">
+</td>
+</tr>
+<tr>
+<td valign="middle"><strong>Frontend</strong></td>
+<td>
+<img src="https://img.shields.io/badge/-React-0d1117?style=flat-square&logo=react&logoColor=61DAFB" alt="React">
+<img src="https://img.shields.io/badge/-Next.js-0d1117?style=flat-square&logo=nextdotjs&logoColor=E8E8E8" alt="Next.js">
+<img src="https://img.shields.io/badge/-Vite-0d1117?style=flat-square&logo=vite&logoColor=8D91FF" alt="Vite">
+<img src="https://img.shields.io/badge/-Tailwind-0d1117?style=flat-square&logo=tailwindcss&logoColor=38BDF8" alt="Tailwind">
+</td>
+</tr>
+<tr>
+<td valign="middle"><strong>Data</strong></td>
+<td>
+<img src="https://img.shields.io/badge/-PostgreSQL-0d1117?style=flat-square&logo=postgresql&logoColor=4169E1" alt="PostgreSQL">
+<img src="https://img.shields.io/badge/-SQL_Server-0d1117?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxOCAxOCI%2BPGRlZnM%2BPGxpbmVhckdyYWRpZW50IGlkPSJhIiB4MT0iLjUiIHkxPSIxMC4wNCIgeDI9IjEzLjE4IiB5Mj0iMTAuMDQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMwMDViYTEiLz48c3RvcCBvZmZzZXQ9Ii4wNyIgc3RvcC1jb2xvcj0iIzAwNjBhOSIvPjxzdG9wIG9mZnNldD0iLjM2IiBzdG9wLWNvbG9yPSIjMDA3MWM4Ii8%2BPHN0b3Agb2Zmc2V0PSIuNTIiIHN0b3AtY29sb3I9IiMwMDc4ZDQiLz48c3RvcCBvZmZzZXQ9Ii42NCIgc3RvcC1jb2xvcj0iIzAwNzRjZCIvPjxzdG9wIG9mZnNldD0iLjgyIiBzdG9wLWNvbG9yPSIjMDA2YWJiIi8%2BPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMDA1YmExIi8%2BPC9saW5lYXJHcmFkaWVudD48L2RlZnM%2BPHBhdGggZD0iTTYuODQgNS4wOWMtMy41IDAtNi4zNC0xLTYuMzQtMi4zVjE1YzAgMS4yNiAyLjc5IDIuMjggNi4yNSAyLjNoLjA5YzMuNSAwIDYuMzQtMSA2LjM0LTIuM1YyLjc5YzAgMS4yNy0yLjg0IDIuMy02LjM0IDIuM3oiIGZpbGw9InVybCgjYSkiLz48cGF0aCBkPSJNMTMuMTggMi43OWMwIDEuMjctMi44NCAyLjMtNi4zNCAyLjNTLjUgNC4wNi41IDIuNzkgMy4zNC40OSA2Ljg0LjQ5czYuMzQgMSA2LjM0IDIuMyIgZmlsbD0iI2U4ZThlOCIvPjxwYXRoIGQ9Ik0xMS43IDIuNmMwIC44MS0yLjE4IDEuNDYtNC44NiAxLjQ2UzIgMy40MSAyIDIuNnMyLjE2LTEuNDYgNC44NC0xLjQ2IDQuODYuNjYgNC44NiAxLjQ2IiBmaWxsPSIjNTBlNmZmIi8%2BPHBhdGggZD0iTTYuODQgMi45NEExMiAxMiAwIDAwMyAzLjQ5YTExLjI1IDExLjI1IDAgMDAzLjg1LjU3IDExLjI1IDExLjI1IDAgMDAzLjg1LS41NyAxMiAxMiAwIDAwLTMuODYtLjU1eiIgZmlsbD0iIzE5OGFiMyIvPjxwYXRoIGQ9Ik0xMC43NCAxMS4xVjcuNzJoLS45M3Y0LjE0aDIuNDZ2LS43NnpNMy41OSA5LjQzYTEuOTIgMS45MiAwIDAxLS41MS0uMzFBLjQ0LjQ0IDAgMDEzIDguOGEuMzguMzggMCAwMS4xNi0uMzEuNzIuNzIgMCAwMS40Mi0uMTEgMS42NyAxLjY3IDAgMDExIC4yOXYtLjg2YTIuNjcgMi42NyAwIDAwLTEtLjE2IDEuNzQgMS43NCAwIDAwLTEuMi4zNSAxLjEzIDEuMTMgMCAwMC0uNDEuOWMwIC41MS4zMi45MSAxIDEuMjFhMi45IDIuOSAwIDAxLjYxLjM2LjQuNCAwIDAxLjE2LjMyLjM4LjM4IDAgMDEtLjE2LjMxLjc1Ljc1IDAgMDEtLjQ1LjEyQTEuNiAxLjYgMCAwMTIgMTAuNzd2LjkzYTIuMjkgMi4yOSAwIDAwMS4wNy4yMyAyIDIgMCAwMDEuMTgtLjMyIDEuMSAxLjEgMCAwMC40My0uOTIgMSAxIDAgMDAtLjI1LS43IDIuNDIgMi40MiAwIDAwLS44NC0uNTZ6TTguNzkgMTFhMi40IDIuNCAwIDAwLjMzLTEuMjcgMi4zMiAyLjMyIDAgMDAtLjI1LTEuMSAxLjgxIDEuODEgMCAwMC0uNy0uNzUgMiAyIDAgMDAtMS0uMjYgMi4xOCAyLjE4IDAgMDAtMS4wOS4yNyAxLjg3IDEuODcgMCAwMC0uNzMuNzcgMi40MSAyLjQxIDAgMDAtLjI2IDEuMTUgMi4yNiAyLjI2IDAgMDAuMjQgMS4wNSAxLjgzIDEuODMgMCAwMC42OC43NSAyIDIgMCAwMDEgLjI5bC44NSAxaDEuMTlsLTEuMi0xLjExYTEuODEgMS44MSAwIDAwLjk0LS43OXptLS45My0uMjZhMSAxIDAgMDEtMS41MyAwIDEuNTEgMS41MSAwIDAxLS4yOC0xIDEuNDggMS40OCAwIDAxLjI5LTEgLjkyLjkyIDAgMDEuNzgtLjM3Ljg5Ljg5IDAgMDEuNzUuMzcgMS42MiAxLjYyIDAgMDEuMjcgMSAxLjQ2IDEuNDYgMCAwMS0uMjggMS4wM3oiIGZpbGw9IiNmMmYyZjIiLz48cGF0aCBkPSJNMTQuODEgMTcuNDlsLjI0LS43OS40Ny0uMjcuODEuMzYuNTItLjUzdi0uMDZsLS4zNy0uNzEuMjItLjUuODEtLjI5aC4wOXYtLjczaC0uMWwtLjgtLjI0LS4yNi0uNDYuMzUtLjgyLS41My0uNTFoLS4wNmwtLjcxLjM2TDE1IDEybC0uMzItLjg5aC0uNzR2LjExbC0uMjQuNzktLjUxLjIyLS44Ny0uNC0uNTEuNTMuMDUuMS4zOC43NC0uMi41MS0uOTQuMjl2Ljc0aC4xMWwuNzkuMjQuMjIuNTEtLjM5Ljg2LjUzLjUyLjA5LS4wNS43NC0uMzguNTEuMi4zNC44OWguNzN6bS0xLjItMi4zNmExLjA2IDEuMDYgMCAxMTEuNDktMS41MiAxLjA2IDEuMDYgMCAwMS0xLjQ5IDEuNTJ6IiBmaWxsPSIjOTQ5NDk0Ii8%2BPC9zdmc%2B" alt="SQL Server">
+<img src="https://img.shields.io/badge/-MySQL-0d1117?style=flat-square&logo=mysql&logoColor=4479A1" alt="MySQL">
+<img src="https://img.shields.io/badge/-MongoDB-0d1117?style=flat-square&logo=mongodb&logoColor=47A248" alt="MongoDB">
+<img src="https://img.shields.io/badge/-Neo4j-0d1117?style=flat-square&logo=neo4j&logoColor=4581C3" alt="Neo4j">
+<img src="https://img.shields.io/badge/-Supabase-0d1117?style=flat-square&logo=supabase&logoColor=3ECF8E" alt="Supabase">
+<img src="https://img.shields.io/badge/-Dataverse-0d1117?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyBmaWxsPSIjQzI2NEQ2IiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU%2BTWljcm9zb2Z0PC90aXRsZT48cGF0aCBkPSJNMCAwdjExLjQwOGgxMS40MDhWMHptMTIuNTk0IDB2MTEuNDA4SDI0VjB6TTAgMTIuNTk0VjI0aDExLjQwOFYxMi41OTR6bTEyLjU5NCAwVjI0SDI0VjEyLjU5NHoiLz48L3N2Zz4%3D" alt="Dataverse">
+<img src="https://img.shields.io/badge/-pandas-0d1117?style=flat-square&logo=pandas&logoColor=E8E8E8" alt="pandas">
+<img src="https://img.shields.io/badge/-NumPy-0d1117?style=flat-square&logo=numpy&logoColor=4DABCF" alt="NumPy">
+<img src="https://img.shields.io/badge/-Power_BI-0d1117?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyBmaWxsPSIjRjJDODExIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU%2BUG93ZXIgQkk8L3RpdGxlPjxwYXRoIGQ9Ik0xMCAxMmExIDEgMCAwIDEgMSAxdjExSDRhMSAxIDAgMCAxLTEtMVYxM2ExIDEgMCAwIDEgMS0xaDZabS0yLS41VjdhMSAxIDAgMCAxIDEtMWg2YTEgMSAwIDAgMSAxIDF2MTdoLTQuNVYxM2ExLjUgMS41IDAgMCAwLTEuNS0xLjVIOFptNS02VjFhMSAxIDAgMCAxIDEtMWg2YTEgMSAwIDAgMSAxIDF2MjJhMSAxIDAgMCAxLTEgMWgtMy41VjdBMS41IDEuNSAwIDAgMCAxNSA1LjVoLTJaIi8%2BPC9zdmc%2B" alt="Power BI">
+</td>
+</tr>
+<tr>
+<td valign="middle"><strong>AI &amp; ML</strong></td>
+<td>
+<img src="https://img.shields.io/badge/-Azure_AI_Foundry-0d1117?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxOCAxOCI%2BPGRlZnM%2BPGxpbmVhckdyYWRpZW50IGlkPSJhIiB4MT0iOSIgeTE9IjE5LjEzIiB4Mj0iOSIgeTI9Ii0uMjkiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMwMDc4ZDQiLz48c3RvcCBvZmZzZXQ9Ii4xNiIgc3RvcC1jb2xvcj0iIzEzODBkYSIvPjxzdG9wIG9mZnNldD0iLjUzIiBzdG9wLWNvbG9yPSIjM2M5MWU1Ii8%2BPHN0b3Agb2Zmc2V0PSIuODIiIHN0b3AtY29sb3I9IiM1NTljZWMiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM1ZWEwZWYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cGF0aCBkPSJNMTggMTEuMzhhNCA0IDAgMDAtMy41MS0zLjg4IDUuMSA1LjEgMCAwMC01LjI1LTQuODhBNS4yNSA1LjI1IDAgMDA0LjIyIDYgNC44IDQuOCAwIDAwMCAxMC42N2E0LjkgNC45IDAgMDA1LjA3IDQuNzFoOC42NWEuNzguNzggMCAwMC4yMiAwIDQuMSA0LjEgMCAwMDQuMDYtNHoiIGZpbGw9InVybCgjYSkiLz48cGF0aCBkPSJNNS40MiAxMC4zOWgtLjg4YTEuMDkgMS4wOSAwIDEwMCAuNDloLjg4YS4yLjIgMCAwMS4yLjJ2NC4zaC40OXYtNC4zYS42OS42OSAwIDAwLS42OS0uNjl6bS0xLjk1Ljg4YS42NC42NCAwIDExLjY0LS42NC42NC42NCAwIDAxLS42NC42NHoiIGZpbGw9IiM5Y2ViZmYiLz48cGF0aCBkPSJNOC45NCAxMC42MXYtMWEuNy43IDAgMDAtLjctLjdINi42OWEuMi4yIDAgMDEtLjItLjJWMy40bC0uMjMuMTItLjI2LjE0djVhLjY5LjY5IDAgMDAuNjkuNjloMS41NWEuMjEuMjEgMCAwMS4yMS4yMXYxYTEuMDggMS4wOCAwIDAwLS44NSAxLjA2IDEuMDkgMS4wOSAwIDEwMS4zNC0xLjA2em0tLjI1IDEuN2EuNjQuNjQgMCAxMS42NC0uNjQuNjQuNjQgMCAwMS0uNjQuNjR6IiBmaWxsPSIjZjJmMmYyIi8%2BPHBhdGggZD0iTTE0LjUzIDguNWExLjA5IDEuMDkgMCAwMC0uMjUgMi4xNXYuMmEuMjEuMjEgMCAwMS0uMjEuMjFoLTJWNy41NGEuNjkuNjkgMCAwMC0uNjktLjY5aC0xLjAzQTEuMDggMS4wOCAwIDAwOS4yOSA2YTEuMDkgMS4wOSAwIDEwMS4wNiAxLjM0aDEuMDdhLjIuMiAwIDAxLjIuMnY3Ljg0aC40OXYtMy44M2gyYS43LjcgMCAwMC43LS43di0uMmExLjA5IDEuMDkgMCAwMC44NS0xLjA2IDEuMDkgMS4wOSAwIDAwLTEuMTMtMS4wOXptLTUuMjQtLjc3YS42NC42NCAwIDExLjY0LS42NC42NC42NCAwIDAxLS42NC42NHptNS4yNCAyLjVhLjY0LjY0IDAgMTEuNjMtLjY0LjY0LjY0IDAgMDEtLjYzLjY0eiIgZmlsbD0iIzljZWJmZiIvPjwvc3ZnPg%3D%3D" alt="Azure AI Foundry">
+<img src="https://img.shields.io/badge/-LangGraph-0d1117?style=flat-square&logo=langgraph&logoColor=E8E8E8" alt="LangGraph">
+<img src="https://img.shields.io/badge/-TensorFlow-0d1117?style=flat-square&logo=tensorflow&logoColor=FF6F00" alt="TensorFlow">
+<img src="https://img.shields.io/badge/-RAG-0d1117?style=flat-square" alt="RAG">
+<img src="https://img.shields.io/badge/-Embeddings-0d1117?style=flat-square" alt="Embeddings">
+</td>
+</tr>
+</table>
+
+**Also in the toolkit:** Domain-Driven Design · event-driven architecture · microservices · REST API design · infrastructure as code · CI/CD · Managed Identity &amp; workload identity federation (OIDC) · Key Vault · Application Insights &amp; Log Analytics · star-schema modeling · query optimization · Agile/Scrum
+
+<br>
+
+<div align="center">
+<img src="images/bye-cat.gif" width="150" alt="bye">
+<br><br>
+<sub>Open to internships and new grad roles · <a href="mailto:IsaacVillalobosB@gmail.com">IsaacVillalobosB@gmail.com</a></sub>
+</div>
