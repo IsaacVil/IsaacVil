@@ -69,9 +69,9 @@ I shipped an Azure-native quoting platform for industrial cooling systems as its
   <strong>PymeBoost</strong>
   <br><br>
   🏆 <strong>Winner of the CRTW Hackathon 2026</strong>
-  <br>
+  <br><br>
   👑 <strong>Backend Lead</strong>
-  <br>
+  <br><br>
   Platform matching Costa Rican SMEs with vetted business advisors. I structured the FastAPI backend around Domain-Driven Design and vertical slices, moved the system onto a Pub/Sub event bus for fault-tolerant workflows with a real audit trail, and built the matching layer with LangGraph over a pgvector index. Onboarding validates legal documents via OCR against the official MEIC registry.
   <br><br>
   <img src="https://img.shields.io/badge/-FastAPI-0d1117?style=flat-square&logo=fastapi&logoColor=009688" alt="FastAPI">
