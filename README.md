@@ -25,6 +25,19 @@ I shipped an Azure-native quoting platform for industrial cooling systems as its
 
 <div align="center">
 
+## Highlights
+
+</div>
+
+- **Co-creator of PymeBoost**, the idea behind the winning project of the CRTW Hackathon 2026.
+- **Participant in the [AUGE](https://diprovid.ucr.ac.cr/auge/) program** with PymeBoost, as backend lead of a team of 4.
+- **Academic Excellence Scholarship** at TEC (2025 – present), awarded for outstanding academic performance.
+- **Worked with AI at multiple levels**, from classic machine learning models to vector search over embeddings and RAG agents in client work.
+
+<br>
+
+<div align="center">
+
 ## Experience
 
 </div>
